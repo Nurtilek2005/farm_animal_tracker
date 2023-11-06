@@ -1,11 +1,7 @@
 import React from 'react';
 import AnimalItem from "./components/AnimalItem";
 
-const animalsData = [
-    {"id": 1, "name": "Fido", "type": "Dog", "birthDate": "2020-01-01", "commands": "Sit, Stay, Fetch"}
-]
-
-const AnimalsTable = () => {
+const AnimalsTable = (props) => {
     return (
         <table className='table table-bordered'>
             <thead>
@@ -20,13 +16,10 @@ const AnimalsTable = () => {
 
             <tbody className="table-group-divider">
             {
-                animalsData.map(animal => (
+                props.data.map(animalData => (
                     <AnimalItem
-                        id={animal.id}
-                        name={animal.name}
-                        type={animal.type}
-                        birthDate={animal.birthDate}
-                        commands={animal.commands}
+                        key={animalData.id}
+                        animal={animalData}
                     />
                 ))
             }
