@@ -4,7 +4,7 @@ import './App.css';
 
 import AnimalsTable from "./layouts/animalsTable/AnimalsTable";
 
-function App() {
+const App = () => {
     return (
         <div className='container'>
             <h1 className='display-1'>Система учета для питомника</h1>
