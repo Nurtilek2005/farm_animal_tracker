@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './App.css';
-
 import AnimalsTable from "./layouts/animalsTable/AnimalsTable";
 
 const App = () => {

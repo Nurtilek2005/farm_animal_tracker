@@ -1,9 +1,9 @@
 import React from 'react';
 import AnimalItem from "./components/AnimalItem";
 
-const animalsData = {
-    "id": 1, "name": "Fido", "type": "Dog", "birthDate": "2020-01-01", "commands": "Sit, Stay, Fetch"
-}
+const animalsData = [
+    {"id": 1, "name": "Fido", "type": "Dog", "birthDate": "2020-01-01", "commands": "Sit, Stay, Fetch"}
+]
 
 const AnimalsTable = () => {
     return (
@@ -28,7 +28,7 @@ const AnimalsTable = () => {
                         birthDate={animal.birthDate}
                         commands={animal.commands}
                     />
-                ));
+                ))
             }
             </tbody>
         </table>
