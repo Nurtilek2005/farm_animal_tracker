@@ -3,7 +3,7 @@ import AnimalItem from "./components/AnimalItem";
 
 const AnimalsTable = (props) => {
     return (
-        <table className='table table-bordered'>
+        <table className='table table-hover'>
             <thead>
             <tr>
                 <th scope='col'>ID</th>
@@ -14,7 +14,7 @@ const AnimalsTable = (props) => {
             </tr>
             </thead>
 
-            <tbody className="table-group-divider">
+            <tbody className='table-group-divider'>
             {
                 props.data.map(animalData => (
                     <AnimalItem
