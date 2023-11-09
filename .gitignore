@@ -1,8 +1,8 @@
 backend/HELP.md
 backend/target/
-backend/!.mvn/wrapper/maven-wrapper.jar
-backend/!**/src/main/**/target/
-backend/!**/src/test/**/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/src/main/**/target/
+backend/src/test/**/target/
 
 ### STS ###
 backend/.apt_generated
@@ -26,11 +26,12 @@ backend/dist/
 backend/nbdist/
 backend/.nb-gradle/
 backend/build/
-backend/!**/src/main/**/build/
-backend/!**/src/test/**/build/
+backend/src/main/**/build/
+backend/src/test/**/build/
 
 ### VS Code ###
 backend/.vscode/
+backend/src/main/resources/application.properties
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
