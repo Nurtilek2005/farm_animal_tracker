@@ -1,59 +1,15 @@
-backend/HELP.md
-backend/target/
-backend/.mvn/wrapper/maven-wrapper.jar
-backend/src/main/**/target/
-backend/src/test/**/target/
+**/.idea
+**/.vscode
+.idea
+.vscode
 
-### STS ###
-backend/.apt_generated
-backend/.classpath
-backend/.factorypath
-backend/.project
-backend/.settings
-backend/.springBeans
-backend/.sts4-cache
-
-### IntelliJ IDEA ###
-backend/.idea
-backend/*.iws
-backend/*.iml
-backend/*.ipr
-
-### NetBeans ###
-backend/nbproject/private/
-backend/nbbuild/
-backend/dist/
-backend/nbdist/
-backend/.nb-gradle/
-backend/build/
-backend/src/main/**/build/
-backend/src/test/**/build/
-
-### VS Code ###
-backend/.vscode/
-backend/src/main/resources/application.properties
-
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-client/node_modules
-client/.pnp
-client/.pnp.js
-
-# testing
-client/coverage
-
-# production
-client/build
-
-# misc
-client/.DS_Store
-client/.env.local
-client/.env.development.local
-client/.env.test.local
-client/.env.production.local
-
-client/npm-debug.log*
-client/yarn-debug.log*
-client/yarn-error.log*
+/backend/.mvn/wrapper/maven-wrapper.jar
+/backend/src/main/resources/application.properties
+/backend/.classpath
+/backend/.project
+/backend/backend.eml
+/backend/backend.iml
+/backend/HELP.md
+/out
+/client/node_modules
+/client/package-lock.json
