@@ -5,7 +5,6 @@
 
 /backend/target
 /backend/.mvn/wrapper/maven-wrapper.jar
-/backend/src/main/resources/application.properties
 /backend/.classpath
 /backend/.project
 /backend/backend.eml
