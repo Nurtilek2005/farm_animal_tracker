@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql
+    container_name: human_friends
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+    ports:
+      - "3000:3306"
+    volumes:
+      - ./human_friends.cnf:/etc/mysql/my.cnf
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - human_friends:/var/lib/mysql
+
+volumes:
+  human_friends:
